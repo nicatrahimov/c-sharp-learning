@@ -14,7 +14,9 @@
 
 <h1>Struct vs Class</h1>
 
+![Screenshot from 2024-05-05 11-39-07](https://github.com/nicatrahimov/c-sharp-learning/assets/123580958/8d6333ff-2d44-4ffa-9e54-45906fa9726c)
+
 ![Screenshot from 2024-05-05 11-36-59](https://github.com/nicatrahimov/c-sharp-learning/assets/123580958/d05954b5-ca33-49b7-9233-53ce99cb93dc)
 
 
-![Screenshot from 2024-05-05 11-39-07](https://github.com/nicatrahimov/c-sharp-learning/assets/123580958/8d6333ff-2d44-4ffa-9e54-45906fa9726c)
+
