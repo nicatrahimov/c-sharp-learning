@@ -18,5 +18,9 @@
 
 ![Screenshot from 2024-05-05 11-36-59](https://github.com/nicatrahimov/c-sharp-learning/assets/123580958/d05954b5-ca33-49b7-9233-53ce99cb93dc)
 
+<h1>const vs read-only</h1>
+
+![image](https://github.com/nicatrahimov/c-sharp-learning/assets/123580958/66755a9b-cd59-4e70-8d84-689ea08f2610)
+
 
 
