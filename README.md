@@ -22,5 +22,10 @@
 
 ![image](https://github.com/nicatrahimov/c-sharp-learning/assets/123580958/66755a9b-cd59-4e70-8d84-689ea08f2610)
 
+<h1>CLR</h1>
+
+![1_RcvnV0w7e4Z0HFCiL8VAmw (1)](https://github.com/nicatrahimov/c-sharp-learning/assets/123580958/f9726eaa-9c1f-41ac-a113-bca27e29b2b8)
+
+
 
 
