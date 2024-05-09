@@ -26,6 +26,7 @@
 
 ![1_RcvnV0w7e4Z0HFCiL8VAmw (1)](https://github.com/nicatrahimov/c-sharp-learning/assets/123580958/f9726eaa-9c1f-41ac-a113-bca27e29b2b8)
 
+<h1>Garbage Colector</h1>
+<h2>Virtual memory states</h2>
 
-
-
+![Screenshot from 2024-05-10 02-14-10](https://github.com/nicatrahimov/c-sharp-learning/assets/123580958/0829e048-bb9d-4a78-9773-de5bbef43081)
