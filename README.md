@@ -30,3 +30,8 @@
 <h2>Virtual memory states</h2>
 
 ![Screenshot from 2024-05-10 02-14-10](https://github.com/nicatrahimov/c-sharp-learning/assets/123580958/0829e048-bb9d-4a78-9773-de5bbef43081)
+
+
+<h1>Defaul GetHashCode for classes</h1>
+
+![Screenshot from 2024-05-15 00-31-28](https://github.com/nicatrahimov/c-sharp-learning/assets/123580958/a7bf5c77-34ce-4d3d-91fc-6ca305b537bd)
