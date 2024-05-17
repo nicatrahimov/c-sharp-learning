@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Data</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody id="data-container"></tbody>
+    </table>
+
+    <script>
+        fetch('http://localhost:5274/api/Products')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json(); 
+            })
+            .then(data => {
+                displayData(data);
+            })
+            .catch(error => {
+                console.error('There was a problem fetching the data:', error);
+            });
+        function displayData(data) {
+            const container = document.getElementById('data-container');
+
+            data.forEach(item => {
+                const listItem = document.createElement('tr');
+
+                for (let field in item) {
+                    const td = document.createElement('td');
+
+                    if(field == 'price'){
+                        td.textContent = item[field] + ' $';
+                    }else{
+                        td.textContent = item[field];
+                    }
+                    listItem.appendChild(td);
+                }
+                
+                container.appendChild(listItem);
+            });
+        }
+    </script>
+
+<a href="add-form.html"><button>Add Product to database</button></a>
+</body>
+</html>
