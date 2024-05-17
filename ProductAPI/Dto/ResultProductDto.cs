@@ -1,9 +1,9 @@
-namespace ProductAPI.Models;
+namespace ProductAPI.Dto;
 
-public class Product
+public class ResultProductDto
 {
-    public Guid Id { get; } = Guid.NewGuid();
+    public Guid Id { get; set; }
     public string ProductName { get; set; }
     public decimal Price { get; set; }
     public string? Description { get; set; }
-}   
+}
