@@ -35,3 +35,5 @@
 /home/nicat/Desktop/ProductAPI/bin/Debug/net8.0/Dapper.dll
 /home/nicat/Desktop/ProductAPI/bin/Debug/net8.0/Npgsql.dll
 /home/nicat/Desktop/ProductAPI/bin/Debug/net8.0/AutoMapper.dll
+/home/nicat/Desktop/ProductAPI/bin/Debug/net8.0/requestWithJS/package-lock.json
+/home/nicat/Desktop/ProductAPI/bin/Debug/net8.0/requestWithJS/package.json

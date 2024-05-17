@@ -9,45 +9,42 @@ namespace ProductAPI.Services;
 public class ProductService : IProductService
 {
     private readonly IProductRepo _repo;
-    readonly Mapper mapperToDto = AutoMapperProduct.GetEntityToDto();
+    private readonly Mapper mapperToDto = AutoMapperProduct.GetEntityToDto();
     private readonly Mapper mapperToEntity = AutoMapperProduct.GetDtoToEntity();
 
     public ProductService(IProductRepo repo)
     {
         _repo = repo;
     }
-    
+
     public List<ResultProductDto> GetAllProduct()
     {
-        List<ResultProductDto> results = new List<ResultProductDto>(); 
-        foreach (var product in _repo.GetAllProduct())
-        {
-            results.Add(mapperToDto.Map<ResultProductDto>(product));
-        }
+        var results = new List<ResultProductDto>();
+        foreach (var product in _repo.GetAllProduct()) results.Add(mapperToDto.Map<ResultProductDto>(product));
         return results;
     }
 
     public ResultProductDto GetProductById(Guid id)
     {
-       var product = _repo.GetProductById(id);
-       return mapperToDto.Map<ResultProductDto>(product);
+        var product = _repo.GetProductById(id);
+        if (product != null) return mapperToDto.Map<ResultProductDto>(product);
+        return null;
     }
 
-    public void AddProduct(InputProductDto product)
+    public int AddProduct(InputProductDto product)
     {
-        Product entity = mapperToEntity.Map<Product>(product);
-        _repo.AddProduct(entity);
+        var entity = mapperToEntity.Map<Product>(product);
+        return _repo.AddProduct(entity);
     }
 
-    public void EditProduct(Guid id, InputProductDto product)
+    public int EditProduct(Guid id, InputProductDto product)
     {
-       var entity = mapperToEntity.Map<Product>(product);
-        _repo.EditProduct(id,entity);
-        
+        var entity = mapperToEntity.Map<Product>(product);
+        return _repo.EditProduct(id, entity);
     }
 
-    public void DeleteProduct(Guid id)
+    public int DeleteProduct(Guid id)
     {
-        _repo.DeleteProduct(id);
+        return _repo.DeleteProduct(id);
     }
 }

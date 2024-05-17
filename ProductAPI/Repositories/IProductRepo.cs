@@ -5,13 +5,12 @@ namespace ProductAPI.Repositories;
 
 public interface IProductRepo
 {
-   List<Product> GetAllProduct();
-   Product GetProductById(Guid id);
+    List<Product> GetAllProduct();
+    Product GetProductById(Guid id);
 
-   void AddProduct(Product product);
+    int AddProduct(Product product);
 
-   void EditProduct(Guid id,Product product);
+    int EditProduct(Guid id, Product product);
 
-   void DeleteProduct(Guid id);
-   
+    int DeleteProduct(Guid id);
 }

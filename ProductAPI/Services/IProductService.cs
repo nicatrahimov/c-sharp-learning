@@ -8,9 +8,9 @@ public interface IProductService
     
     ResultProductDto GetProductById(Guid id);
 
-    void AddProduct(InputProductDto product);
+    int AddProduct(InputProductDto product);
 
-    void EditProduct(Guid id,InputProductDto product);
+    int EditProduct(Guid id,InputProductDto product);
 
-    void DeleteProduct(Guid id);
+    int DeleteProduct(Guid id);
 }
