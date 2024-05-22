@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NJYUELRIrzqy5OvNiYE/ncAo81aCXjiCF/DrdNUG5JvUeM0fB1Z1uJh1S0Dly+WS03Y3bCKEl9GewWCS0kEGnw==",
+  "dgSpecHash": "rm3Wplp1lrPMpwOfscqI2DKVJvnDP+EGnxrcdeSQD9oDc3DN6FiAsvuF+9coAC1RtVSdYnN42oVkMVLcT5OlAA==",
   "success": true,
   "projectFilePath": "/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/PersonalSite.Domain.csproj",
-  "expectedPackageFiles": [
-    "/home/nicat/.nuget/packages/dapper/2.1.35/dapper.2.1.35.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -4,5 +4,5 @@ namespace PersonalSite.Application.Repositories;
 
 public interface IDbConnectionFactory
 {
-    IDbConnection CreateConnection();
+    public IDbConnection CreateConnection();
 }

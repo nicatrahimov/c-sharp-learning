@@ -9,9 +9,9 @@ public static class Registration
 {
     public static void RegisterServices(this IServiceCollection services)
     {
-     services.AddScoped<ICertificateRepository, CertificateRepository>();
-     services.AddScoped<IDbConnectionFactory, DbConnectionFactory>();
-     services.AddScoped<ISqlBaseRepository, SqlBaseRepository>();
-     services.AddScoped<ICertificateService, CertificateService>();
+        services.AddScoped<ICertificateService, CertificateService>();
+        services.AddScoped<ICertificateRepository, CertificateRepository>();
+        services.AddScoped<ISqlBaseRepository, SqlBaseRepository>();
+        services.AddScoped<IDbConnectionFactory, DbConnectionFactory>();
     }
 }

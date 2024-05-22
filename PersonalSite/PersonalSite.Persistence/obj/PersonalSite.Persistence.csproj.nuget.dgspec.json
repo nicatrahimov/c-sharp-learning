@@ -4,14 +4,14 @@
     "/home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/PersonalSite.Persistence.csproj": {}
   },
   "projects": {
-    "/home/nicat/Desktop/PersonalSite/PersonalSite.Api/PersonalSite.Api.csproj": {
+    "/home/nicat/Desktop/PersonalSite/PersonalSite.Application/PersonalSite.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nicat/Desktop/PersonalSite/PersonalSite.Api/PersonalSite.Api.csproj",
-        "projectName": "PersonalSite.Api",
-        "projectPath": "/home/nicat/Desktop/PersonalSite/PersonalSite.Api/PersonalSite.Api.csproj",
+        "projectUniqueName": "/home/nicat/Desktop/PersonalSite/PersonalSite.Application/PersonalSite.Application.csproj",
+        "projectName": "PersonalSite.Application",
+        "projectPath": "/home/nicat/Desktop/PersonalSite/PersonalSite.Application/PersonalSite.Application.csproj",
         "packagesPath": "/home/nicat/.nuget/packages/",
-        "outputPath": "/home/nicat/Desktop/PersonalSite/PersonalSite.Api/obj/",
+        "outputPath": "/home/nicat/Desktop/PersonalSite/PersonalSite.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/nicat/.nuget/NuGet/NuGet.Config"
@@ -25,7 +25,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/PersonalSite.Domain.csproj": {
+                "projectPath": "/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/PersonalSite.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -38,13 +42,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "Dapper": {
               "target": "Package",
-              "version": "[8.0.3, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[2.1.35, )"
             }
           },
           "imports": [
@@ -59,9 +59,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -103,12 +100,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Dapper": {
-              "target": "Package",
-              "version": "[2.1.35, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -151,8 +142,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/nicat/Desktop/PersonalSite/PersonalSite.Api/PersonalSite.Api.csproj": {
-                "projectPath": "/home/nicat/Desktop/PersonalSite/PersonalSite.Api/PersonalSite.Api.csproj"
+              "/home/nicat/Desktop/PersonalSite/PersonalSite.Application/PersonalSite.Application.csproj": {
+                "projectPath": "/home/nicat/Desktop/PersonalSite/PersonalSite.Application/PersonalSite.Application.csproj"
               },
               "/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/PersonalSite.Domain.csproj": {
                 "projectPath": "/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/PersonalSite.Domain.csproj"

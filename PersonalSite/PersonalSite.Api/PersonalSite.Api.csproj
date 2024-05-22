@@ -12,12 +12,9 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Reference Include="PersonalSite.Application">
-            <HintPath>..\PersonalSite.Application\obj\Debug\net8.0\PersonalSite.Application.dll</HintPath>
-        </Reference>
-        <Reference Include="PersonalSite.Persistence">
-            <HintPath>..\PersonalSite.Persistence\obj\Debug\net8.0\PersonalSite.Persistence.dll</HintPath>
-        </Reference>
+      <ProjectReference Include="..\PersonalSite.Application\PersonalSite.Application.csproj" />
+      <ProjectReference Include="..\PersonalSite.Persistence\PersonalSite.Persistence.csproj" />
     </ItemGroup>
+    
 
 </Project>

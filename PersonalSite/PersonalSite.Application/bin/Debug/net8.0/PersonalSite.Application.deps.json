@@ -9,8 +9,7 @@
       "PersonalSite.Application/1.0.0": {
         "dependencies": {
           "Dapper": "2.1.35",
-          "PersonalSite.Domain": "1.0.0",
-          "PersonalSite.Persistence": "1.0.0"
+          "PersonalSite.Domain": "1.0.0"
         },
         "runtime": {
           "PersonalSite.Application.dll": {}
@@ -25,19 +24,8 @@
         }
       },
       "PersonalSite.Domain/1.0.0": {
-        "dependencies": {
-          "Dapper": "2.1.35"
-        },
         "runtime": {
           "PersonalSite.Domain.dll": {}
-        }
-      },
-      "PersonalSite.Persistence/1.0.0": {
-        "dependencies": {
-          "Dapper": "2.1.35"
-        },
-        "runtime": {
-          "PersonalSite.Persistence.dll": {}
         }
       }
     }
@@ -56,11 +44,6 @@
       "hashPath": "dapper.2.1.35.nupkg.sha512"
     },
     "PersonalSite.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "PersonalSite.Persistence/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

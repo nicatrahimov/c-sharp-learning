@@ -11,3 +11,8 @@
 /home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/obj/Debug/net8.0/refint/PersonalSite.Persistence.dll
 /home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/obj/Debug/net8.0/PersonalSite.Persistence.pdb
 /home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/obj/Debug/net8.0/ref/PersonalSite.Persistence.dll
+/home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/bin/Debug/net8.0/PersonalSite.Application.dll
+/home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/bin/Debug/net8.0/PersonalSite.Domain.dll
+/home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/bin/Debug/net8.0/PersonalSite.Application.pdb
+/home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/bin/Debug/net8.0/PersonalSite.Domain.pdb
+/home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/obj/Debug/net8.0/Personal.439430A4.Up2Date

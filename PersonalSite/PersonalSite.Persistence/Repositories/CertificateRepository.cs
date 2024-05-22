@@ -7,7 +7,7 @@ using PersonalSite.Domain.Entities;
 
 namespace PersonalSite.Persistence.Repositories;
 
-public sealed class CertificateRepository: ICertificateRepository
+public sealed class CertificateRepository : ICertificateRepository
 {
     private readonly ISqlBaseRepository _sqlBaseRepository;
 

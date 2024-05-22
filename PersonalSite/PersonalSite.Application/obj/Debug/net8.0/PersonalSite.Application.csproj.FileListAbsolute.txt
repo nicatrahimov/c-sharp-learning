@@ -8,9 +8,7 @@
 /home/nicat/Desktop/PersonalSite/PersonalSite.Application/bin/Debug/net8.0/PersonalSite.Application.dll
 /home/nicat/Desktop/PersonalSite/PersonalSite.Application/bin/Debug/net8.0/PersonalSite.Application.pdb
 /home/nicat/Desktop/PersonalSite/PersonalSite.Application/bin/Debug/net8.0/PersonalSite.Domain.dll
-/home/nicat/Desktop/PersonalSite/PersonalSite.Application/bin/Debug/net8.0/PersonalSite.Persistence.dll
 /home/nicat/Desktop/PersonalSite/PersonalSite.Application/bin/Debug/net8.0/PersonalSite.Domain.pdb
-/home/nicat/Desktop/PersonalSite/PersonalSite.Application/bin/Debug/net8.0/PersonalSite.Persistence.pdb
 /home/nicat/Desktop/PersonalSite/PersonalSite.Application/obj/Debug/net8.0/Personal.03D2B86F.Up2Date
 /home/nicat/Desktop/PersonalSite/PersonalSite.Application/obj/Debug/net8.0/PersonalSite.Application.dll
 /home/nicat/Desktop/PersonalSite/PersonalSite.Application/obj/Debug/net8.0/refint/PersonalSite.Application.dll

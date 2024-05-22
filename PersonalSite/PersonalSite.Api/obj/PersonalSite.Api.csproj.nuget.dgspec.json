@@ -25,7 +25,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/nicat/Desktop/PersonalSite/PersonalSite.Application/PersonalSite.Application.csproj": {
+                "projectPath": "/home/nicat/Desktop/PersonalSite/PersonalSite.Application/PersonalSite.Application.csproj"
+              },
+              "/home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/PersonalSite.Persistence.csproj": {
+                "projectPath": "/home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/PersonalSite.Persistence.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -62,6 +69,192 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/nicat/.dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/nicat/Desktop/PersonalSite/PersonalSite.Application/PersonalSite.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nicat/Desktop/PersonalSite/PersonalSite.Application/PersonalSite.Application.csproj",
+        "projectName": "PersonalSite.Application",
+        "projectPath": "/home/nicat/Desktop/PersonalSite/PersonalSite.Application/PersonalSite.Application.csproj",
+        "packagesPath": "/home/nicat/.nuget/packages/",
+        "outputPath": "/home/nicat/Desktop/PersonalSite/PersonalSite.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nicat/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/PersonalSite.Domain.csproj": {
+                "projectPath": "/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/PersonalSite.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/nicat/.dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/PersonalSite.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/PersonalSite.Domain.csproj",
+        "projectName": "PersonalSite.Domain",
+        "projectPath": "/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/PersonalSite.Domain.csproj",
+        "packagesPath": "/home/nicat/.nuget/packages/",
+        "outputPath": "/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nicat/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/nicat/.dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/PersonalSite.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/PersonalSite.Persistence.csproj",
+        "projectName": "PersonalSite.Persistence",
+        "projectPath": "/home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/PersonalSite.Persistence.csproj",
+        "packagesPath": "/home/nicat/.nuget/packages/",
+        "outputPath": "/home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nicat/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/nicat/Desktop/PersonalSite/PersonalSite.Application/PersonalSite.Application.csproj": {
+                "projectPath": "/home/nicat/Desktop/PersonalSite/PersonalSite.Application/PersonalSite.Application.csproj"
+              },
+              "/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/PersonalSite.Domain.csproj": {
+                "projectPath": "/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/PersonalSite.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

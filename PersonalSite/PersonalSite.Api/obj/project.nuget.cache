@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "kbUFzyqgpV7mCD3pLTZ8a1syU9pjpvJGzSnRD19vOwQ+vEdgSs/LUcgD4ymGOsVRpX7d74Axs8P/Feli0S4T2A==",
+  "dgSpecHash": "VgDnz2R+4Lxh3TYAR7m7s6eH5zZ+LxOvsuG094SYyaJ4WyAvdv9YYFNQH9K6MpBYOoBNF0rOKBrIZK3Z0GaQcw==",
   "success": true,
   "projectFilePath": "/home/nicat/Desktop/PersonalSite/PersonalSite.Api/PersonalSite.Api.csproj",
   "expectedPackageFiles": [
+    "/home/nicat/.nuget/packages/dapper/2.1.35/dapper.2.1.35.nupkg.sha512",
     "/home/nicat/.nuget/packages/microsoft.aspnetcore.openapi/8.0.3/microsoft.aspnetcore.openapi.8.0.3.nupkg.sha512",
     "/home/nicat/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/nicat/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/home/nicat/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "/home/nicat/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/nicat/.nuget/packages/npgsql/8.0.3/npgsql.8.0.3.nupkg.sha512",
     "/home/nicat/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "/home/nicat/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "/home/nicat/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

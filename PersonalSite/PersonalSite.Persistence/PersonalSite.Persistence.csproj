@@ -12,14 +12,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\PersonalSite.Api\PersonalSite.Api.csproj" />
+      <ProjectReference Include="..\PersonalSite.Application\PersonalSite.Application.csproj" />
       <ProjectReference Include="..\PersonalSite.Domain\PersonalSite.Domain.csproj" />
     </ItemGroup>
-
-    <ItemGroup>
-      <Reference Include="PersonalSite.Application">
-        <HintPath>..\PersonalSite.Application\obj\Debug\net8.0\PersonalSite.Application.dll</HintPath>
-      </Reference>
-    </ItemGroup>
-
+    
 </Project>
