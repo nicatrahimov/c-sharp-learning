@@ -1,0 +1,13 @@
+/home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/bin/Debug/net8.0/PersonalSite.Persistence.deps.json
+/home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/bin/Debug/net8.0/PersonalSite.Persistence.dll
+/home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/bin/Debug/net8.0/PersonalSite.Persistence.pdb
+/home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/obj/Debug/net8.0/PersonalSite.Persistence.csproj.AssemblyReference.cache
+/home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/obj/Debug/net8.0/PersonalSite.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/obj/Debug/net8.0/PersonalSite.Persistence.AssemblyInfoInputs.cache
+/home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/obj/Debug/net8.0/PersonalSite.Persistence.AssemblyInfo.cs
+/home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/obj/Debug/net8.0/PersonalSite.Persistence.csproj.CoreCompileInputs.cache
+/home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/obj/Debug/net8.0/PersonalSite.Persistence.sourcelink.json
+/home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/obj/Debug/net8.0/PersonalSite.Persistence.dll
+/home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/obj/Debug/net8.0/refint/PersonalSite.Persistence.dll
+/home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/obj/Debug/net8.0/PersonalSite.Persistence.pdb
+/home/nicat/Desktop/PersonalSite/PersonalSite.Persistence/obj/Debug/net8.0/ref/PersonalSite.Persistence.dll

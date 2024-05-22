@@ -1,0 +1,13 @@
+/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/bin/Debug/net8.0/PersonalSite.Domain.deps.json
+/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/bin/Debug/net8.0/PersonalSite.Domain.dll
+/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/bin/Debug/net8.0/PersonalSite.Domain.pdb
+/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/obj/Debug/net8.0/PersonalSite.Domain.csproj.AssemblyReference.cache
+/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/obj/Debug/net8.0/PersonalSite.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/obj/Debug/net8.0/PersonalSite.Domain.AssemblyInfoInputs.cache
+/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/obj/Debug/net8.0/PersonalSite.Domain.AssemblyInfo.cs
+/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/obj/Debug/net8.0/PersonalSite.Domain.csproj.CoreCompileInputs.cache
+/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/obj/Debug/net8.0/PersonalSite.Domain.sourcelink.json
+/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/obj/Debug/net8.0/PersonalSite.Domain.dll
+/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/obj/Debug/net8.0/refint/PersonalSite.Domain.dll
+/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/obj/Debug/net8.0/PersonalSite.Domain.pdb
+/home/nicat/Desktop/PersonalSite/PersonalSite.Domain/obj/Debug/net8.0/ref/PersonalSite.Domain.dll
